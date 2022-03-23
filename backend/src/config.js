@@ -14,33 +14,18 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Background" },
-      { name: "Cyber Base" },
-      { name: "Cyber Eyes" },
-      { name: "Cyber Mouth" },
-      { name: "Cyber Ear" },
-      { name: "Cyber Tail" },
-      { name: "Cyber Head" },
-      { name: "Cyber Arm" },
-      { name: "Cyber Lower Body" },
-      { name: "Cyber Upper Body" },
-    ],
-  },
-  {
-    growEditionSizeTo: 20,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Monster Base" },
-      { name: "Monster Eyes" },
-      { name: "Monster Mouth" },
-      { name: "Monster Ear" },
-      { name: "Monster Tail" },
-      { name: "Monster Head" },
-      { name: "Monster Arm" },
-      { name: "Monster Lower Body" },
-      { name: "Monster Upper Body" },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "EYES" },
+      { name: "MOUTH" },
+      { name: "EAR" },
+      { name: "TAIL" },
+      { name: "HEAD" },
+      { name: "ARM" },
+      { name: "LOWER BODY" },
+      { name: "UPPER BODY" },
     ],
   },
 ];
@@ -67,8 +52,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'FAT CAT';
-const CONTRACT_SYMBOL = 'FC';
+const CONTRACT_NAME = 'FATCAT_NFT Collections';
+const CONTRACT_SYMBOL = 'FCC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xb4a9391C658bc1d5a4fd7928c5306d16046141f8';
 const TREASURY_ADDRESS = '0xb4a9391C658bc1d5a4fd7928c5306d16046141f8';
@@ -77,15 +62,15 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-23T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-03-24T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-03-21T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
