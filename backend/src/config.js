@@ -70,7 +70,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xb4a9391C658bc1d5a4fd7928c5306d16046141f8","0x1277ad82fFD17A61B17931E277DB498b2eFA67a3"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -95,6 +95,7 @@ try {
 }
 // END NFTPort Info
 
+/* 
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
@@ -106,6 +107,7 @@ const solanaMetadata = {
     },
   ],
 };
+*/
 
 const gif = {
   export: false,
@@ -174,7 +176,6 @@ module.exports = {
   text,
   namePrefix,
   network,
-  solanaMetadata,
   gif,
   preview_gif,
   AUTH,
