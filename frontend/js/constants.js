@@ -1,9 +1,9 @@
-const contractAddress = "0xF022ee4939eA908b1E5DA6B3899812c0730f15ed"; //Replace with your own contract address
+const contractAddress = "0d3d0424-30c5-40c8-b7f7-f8df5e66d1b9"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Fat Cat NFT Project!!";
+const welcome_h1 = "Welcome to the Matabang Pusa NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Fat Cat is an NFT collection of 10,000 randomly generated cats stored as ERC-1155 tokens on the Polygon blockchain Breed from over 500 of the fattest cats in the entire world of Cat Condo, this side of each Fat Cat from curiosities like wearing weird clothes, scrap metals, and even a monster parts, along with special and rare combinations Fat Cats evolved in a new cat species like Meowster, Summercatto, Cybercatto and more. In this NFT project, we will share 20% of our earnings by adopting and feeding homeless cats here in the Philippines.';
+const welcome_p = 'Matabang Pusa is an NFT collection of 10,000 randomly generated cats stored as ERC-1155 tokens on the Polygon blockchain Breed from over 500 of the fattest cats in the entire world of Cat Condo, this side of each Fat Cat from curiosities like wearing weird clothes, scrap metals, and even a monster parts, along with special and rare combinations Fat Cats evolved in a new cat species like Meowster, Summercatto, Cybercatto and more. In this NFT project, we will share 20% of our earnings by adopting and feeding homeless cats here in the Philippines.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
