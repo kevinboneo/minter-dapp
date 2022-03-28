@@ -355,6 +355,7 @@ section {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
     padding: 2rem;
+    margin: auto;
   }
   .countdown ul {
     display: grid;
