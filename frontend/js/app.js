@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     direction: 'rtl',
     height: "calc(100vh - 90px)",
     width: '30vw',
-    autoHeight: true,
+    autoHeight: false,
   });
   
   splide.mount();
