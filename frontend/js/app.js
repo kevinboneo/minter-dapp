@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoHeight: true,
   });
   
-  //splide.mount();
+  splide.mount();
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
