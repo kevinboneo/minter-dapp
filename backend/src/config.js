@@ -7,14 +7,14 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Matabang Pusa NFT";
+const namePrefix = "";
 const description = "Matabang Pusa is an NFT collection of 10,000 randomly generated cats stored as ERC-1155 tokens on the Polygon blockchain Breed from over 500 of the fattest cats in the entire world of Cat Condo, this side of each Fat Cat from curiosities like wearing weird clothes, scrap metals, and even a monster parts, along with special and rare combinations Fat Cats evolved in a new cat species like Meowster, Summercatto, Cybercatto and more. In this NFT project, we will share 20% of our earnings by adopting and feeding homeless cats here in the Philippines.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "BACKGROUND" },
       { name: "BODY" },
