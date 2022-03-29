@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "";
-const description = "Matabang Pusa is an NFT collection of 10,000 randomly generated cats stored as ERC-1155 tokens on the Polygon blockchain Breed from over 500 of the fattest cats in the entire world of Cat Condo, this side of each Fat Cat from curiosities like wearing weird clothes, scrap metals, and even a monster parts, along with special and rare combinations Fat Cats evolved in a new cat species like Meowster, Summercatto, Cybercatto and more. In this NFT project, we will share 20% of our earnings by adopting and feeding homeless cats here in the Philippines.";
+const description = "Batang Mini is an NFT collection of 5,000 randomly generated children stored as ERC-721 tokens on the Polygon blockchain.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -81,7 +81,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://wondrous-kangaroo-f93137.netlify.app/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://twitter.com/Batang_ETH", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -95,8 +95,8 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'BATANG MINI';
 const CONTRACT_SYMBOL = 'BM';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xfBcc6545Ef08877B779D8Ab7F6Dc1bf59217C027';
-const TREASURY_ADDRESS = '0xfBcc6545Ef08877B779D8Ab7F6Dc1bf59217C027';
+const OWNER_ADDRESS = '0x17Ca3D67b7AD32a3c83bAd88b509AE3D8C8371c4';
+const TREASURY_ADDRESS = '0xb4a9391C658bc1d5a4fd7928c5306d16046141f8';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -105,9 +105,9 @@ const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single
 const PUBLIC_MINT_START_DATE = "2022-03-26T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-03-25T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = ""; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xfBcc6545Ef08877B779D8Ab7F6Dc1bf59217C027"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"]; // only update if you want to manually set the whitelisted addresses
