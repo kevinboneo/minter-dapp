@@ -14,18 +14,58 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 1,
     layersOrder: [
-      { name: "BACKGROUND" },
-      { name: "BODY" },
-      { name: "EYES" },
-      { name: "MOUTH" },
-      { name: "EAR" },
-      { name: "TAIL" },
-      { name: "HEAD" },
-      { name: "ARM" },
-      { name: "LOWER BODY" },
-      { name: "UPPER BODY" },
+      { name: "Earth Background" },
+      { name: "Earth Type" },
+      { name: "Earth Mouth" },
+      { name: "Earth Eyes" },
+      { name: "Earth Hair" },
+      { name: "Earth Special" },
+    ],
+  },
+  {
+    growEditionSizeTo: 2,
+    layersOrder: [
+      { name: "Fire Background" },
+      { name: "Fire Type" },
+      { name: "Fire Mouth" },
+      { name: "Fire Eyes" },
+      { name: "Fire Hair" },
+      { name: "Fire Special" },
+    ],
+  },
+  {
+    growEditionSizeTo: 3,
+    layersOrder: [
+      { name: "Water Background" },
+      { name: "Water Type" },
+      { name: "Water Mouth" },
+      { name: "Water Eyes" },
+      { name: "Water Hair" },
+      { name: "Water Special" },
+    ],
+  },
+  {
+    growEditionSizeTo: 4,
+    layersOrder: [
+      { name: "Wind Background" },
+      { name: "Wind Type" },
+      { name: "Wind Mouth" },
+      { name: "Wind Eyes" },
+      { name: "Wind Hair" },
+      { name: "Wind Special" },
+    ],
+  },
+  {
+    growEditionSizeTo: 1000,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Type" },
+      { name: "Mouth" },
+      { name: "Eyes" },
+      { name: "Hair" },
+      { name: "Clothing" },
     ],
   },
 ];
@@ -35,8 +75,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 2480,
-  height: 3508,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
@@ -52,8 +92,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'MATABANGPUSA_NFT';
-const CONTRACT_SYMBOL = 'MPNFT';
+const CONTRACT_NAME = 'BATANG MINI';
+const CONTRACT_SYMBOL = 'BM';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xfBcc6545Ef08877B779D8Ab7F6Dc1bf59217C027';
 const TREASURY_ADDRESS = '0xfBcc6545Ef08877B779D8Ab7F6Dc1bf59217C027';
@@ -78,8 +118,10 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which cat will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreifuk6vlme7o5ypnji5d2ie6kbtcah3qp4g3tw5jvqn7vqkw3nvaru"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Which BATANG MINI will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreibiv6eygqhi3ujhl3yfsglqafukclsnsygf6g7nqoaqgqm4ghfaaq"; // Replace with your generic image that will display for all NFTs pre-reveal.
+
+
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -96,6 +138,7 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
+  /*
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
@@ -104,7 +147,7 @@ const solanaMetadata = {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
       share: 100,
     },
-  ],
+  ],*/
 };
 
 const gif = {
