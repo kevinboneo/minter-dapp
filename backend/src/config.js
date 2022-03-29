@@ -58,7 +58,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
