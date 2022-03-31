@@ -92,11 +92,11 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'BATANG MINI NFT';
+const CONTRACT_NAME = 'BATANGMINI_NFT';
 const CONTRACT_SYMBOL = 'BMN';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xCD8915d79dC1D13F3941cB899c984d2e77A996b0';
-const TREASURY_ADDRESS = '0xb4a9391C658bc1d5a4fd7928c5306d16046141f8';
+const TREASURY_ADDRESS = '0xCD8915d79dC1D13F3941cB899c984d2e77A996b0';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -106,8 +106,8 @@ const PUBLIC_MINT_START_DATE = "2022-03-29T11:30:48+00:00"; // This is required.
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = ""; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xb4a9391C658bc1d5a4fd7928c5306d16046141f8"; // Address that will receive the royalty
+const ROYALTY_SHARE = 2500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_ADDRESS = "0xCD8915d79dC1D13F3941cB899c984d2e77A996b0"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
