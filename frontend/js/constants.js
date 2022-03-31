@@ -1,4 +1,4 @@
-const contractAddress = "0x275F7A077ED338a3ED882d14Eda373227afFD353"; //Replace with your own contract address
+const contractAddress = "0x046B5c88D603408fb4079782af5840D72524e136"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the BATANG ETH MINI Project!!";
