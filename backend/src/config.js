@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "";
-const description = "Batang Mini is an NFT collection of 5,000 randomly generated children stored as ERC-721 tokens on the Polygon blockchain.";
+const description = "Batang ETH Mini community fund.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -81,7 +81,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://bethplayground.io", // Replace with your website or remove this line if you do not have one.
+  external_url: "", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -92,12 +92,12 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'BATANG_MINI';
-const CONTRACT_SYMBOL = 'BM';
+const CONTRACT_NAME = 'BATANG ETH MINI';
+const CONTRACT_SYMBOL = 'BEM';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x17Ca3D67b7AD32a3c83bAd88b509AE3D8C8371c4';
 const TREASURY_ADDRESS = '0xb4a9391C658bc1d5a4fd7928c5306d16046141f8';
-const MAX_SUPPLY = 10; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
@@ -118,7 +118,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which BATANG MINI will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Which BATANG ETH MINI will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreibiv6eygqhi3ujhl3yfsglqafukclsnsygf6g7nqoaqgqm4ghfaaq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 
