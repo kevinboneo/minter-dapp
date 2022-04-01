@@ -30,11 +30,12 @@ window.addEventListener("DOMContentLoaded", async () => {
     perMove: 3,
     pagination: false,
     autoplay: true,
-    direction: 'ttb',
-    height: "calc(100vh - 90px)",
+    direction: 'rtl',
+    height: "30vw",
     width: '30vw',
-    autoHeight: true,
+    autoHeight: false,
   });
+  
   splide.mount();
 
   updateConnectStatus();
